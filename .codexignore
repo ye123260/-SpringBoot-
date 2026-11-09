@@ -1,0 +1,13 @@
+# Codex/IDE 扫描排除：这些目录由构建、测试或运行时自动生成
+.runtime/
+target/
+target-acceptance/
+data/qa-artifacts/
+data/backups/
+work/
+deploy/__pycache__/
+*.log
+*.jar
+*.class
+*.docx
+D:\coding\apache-maven-3.6.3\mvn_repo/

@@ -1,0 +1,13 @@
+.runtime/
+target/
+data/
+.env
+*.log
+
+# 本地运行时与可重建构建/验收产物，避免被源码扫描和版本控制反复处理
+target-acceptance/
+work/
+deploy/__pycache__/
+*.pyc
+NUL
+D:\coding\apache-maven-3.6.3\mvn_repo/
