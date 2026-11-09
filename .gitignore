@@ -1,13 +1,27 @@
+# Local configuration and generated data
+.env
+.env.*
+!.env.example
+data/
 .runtime/
 target/
-data/
-.env
-*.log
-
-# 本地运行时与可重建构建/验收产物，避免被源码扫描和版本控制反复处理
 target-acceptance/
 work/
-deploy/__pycache__/
+*.log
+*.jar
+*.class
 *.pyc
-NUL
-D:\coding\apache-maven-3.6.3\mvn_repo/
+__pycache__/
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.mv.db
+*.trace.db
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
